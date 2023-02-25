@@ -33,7 +33,7 @@ body {
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
-    background-size: cover;
+    background-size:auto;
 }
 
 .panel h3 {
@@ -50,6 +50,7 @@ body {
 }
 
 .panel.active h3 {
+    transition: opacity 0.3s ease-in 0.4s;
     opacity: 1;
 }
 
